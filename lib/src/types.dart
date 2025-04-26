@@ -60,12 +60,14 @@ class LNURLPayParams {
         callback = json['callback'],
         minSendable = json['minSendable'],
         maxSendable = json['maxSendable'],
-        metadata = json['metadata'];
+        metadata = json['metadata'],
+        commentAllowed = json['commentAllowed'];
   final String tag;
   final String callback;
   final int minSendable;
   final int maxSendable;
   final String metadata;
+  final int? commentAllowed;
 }
 
 /// A success action will be returned when making a call to the lnUrl callback url.
