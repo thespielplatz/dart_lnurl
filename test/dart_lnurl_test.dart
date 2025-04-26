@@ -1,5 +1,5 @@
-import 'package:dart_lnurl/dart_lnurl.dart';
-import 'package:dart_lnurl/src/lnurl.dart';
+import 'package:tsp_dart_lnurl/dart_lnurl.dart';
+import 'package:tsp_dart_lnurl/src/lnurl.dart';
 import 'package:test/test.dart';
 
 import 'util.dart';

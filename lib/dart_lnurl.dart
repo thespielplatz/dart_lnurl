@@ -3,9 +3,9 @@ library dart_lnurl;
 import 'dart:convert';
 
 import 'package:bech32/bech32.dart';
-import 'package:dart_lnurl/src/bech32.dart';
-import 'package:dart_lnurl/src/lnurl.dart';
-import 'package:dart_lnurl/src/types.dart';
+import 'package:tsp_dart_lnurl/src/bech32.dart';
+import 'package:tsp_dart_lnurl/src/lnurl.dart';
+import 'package:tsp_dart_lnurl/src/types.dart';
 import 'package:http/http.dart' as http;
 
 export 'src/types.dart';

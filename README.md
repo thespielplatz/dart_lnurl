@@ -1,5 +1,6 @@
-# dart_lnurl
-[![pub package](https://img.shields.io/badge/pub-0.0.1-blueviolet.svg)](https://pub.dev/packages/dart_lnurl)
+# Dart LNURL 
+
+This package was forked from https://github.com/bottlepay/dart_lnurl. Thank you for all your prework!
 
 A Dart implementation of lnurl to decode bech32 lnurl strings. Currently supports the following tags:
 * withdrawRequest
@@ -11,8 +12,6 @@ A Dart implementation of lnurl to decode bech32 lnurl strings. Currently support
 * ✅ Decode a bech32-encoded lnurl string.
 * ✅ Handles LUD-17 non-bech32 lnurl string (lnurlw, lnurlp, lnurlc, keyauth).
 * ✅ Make GET request to the decoded ln service and return the response.
-
-
 
 Learn more about the lnurl spec here: https://github.com/btcontract/lnurl-rfc
 
